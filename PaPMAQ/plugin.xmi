@@ -40,6 +40,24 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_H5M-kJdCEemppNeXyUOEhQ" name="gerente_de_projeto" guid="_H5M-kJdCEemppNeXyUOEhQ" presentationName="Gerente de Projeto">
             <methodElementProperty xmi:id="_JAD48JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yw8V8JdCEemppNeXyUOEhQ" name="estabelecer_as_necessidades" guid="_yw8V8JdCEemppNeXyUOEhQ" presentationName="Estabelecer as necessidades" performedBy="_FSLR8JdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_10XqsJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3Y4KYJdCEemppNeXyUOEhQ" name="definir_itens_de_ao" guid="_3Y4KYJdCEemppNeXyUOEhQ" presentationName="Definir itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_4XsjEJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4yK4kJdCEemppNeXyUOEhQ" name="revisar_itens_de_ao" guid="_4yK4kJdCEemppNeXyUOEhQ" presentationName="Revisar itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_5_UBIJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6UJBoJdCEemppNeXyUOEhQ" name="atribuir_itens_de_ao" guid="_6UJBoJdCEemppNeXyUOEhQ" presentationName="Atribuir itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_7IDx4JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7gW9IJdCEemppNeXyUOEhQ" name="definir_observaes" guid="_7gW9IJdCEemppNeXyUOEhQ" presentationName="Definir observações" performedBy="_FSLR8JdCEemppNeXyUOEhQ _H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_8Wi-QJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9F7z0JdCEemppNeXyUOEhQ" name="definir_critrios_de_aceitao" guid="_9F7z0JdCEemppNeXyUOEhQ" presentationName="Definir critérios de aceitação" performedBy="_FSLR8JdCEemppNeXyUOEhQ _H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_-In_4JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ"/>
