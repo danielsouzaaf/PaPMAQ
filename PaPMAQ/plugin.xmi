@@ -18,7 +18,24 @@
           </childPackages>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx7Jc_EemppNeXyUOEhQ" name="CoreContent" guid="_A4bx7Jc_EemppNeXyUOEhQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx7Jc_EemppNeXyUOEhQ" name="CoreContent" guid="_A4bx7Jc_EemppNeXyUOEhQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uGSPkJdAEemppNeXyUOEhQ" name="preparao_da_pauta" guid="_uGSPkJdAEemppNeXyUOEhQ" presentationName="Preparação da pauta">
+          <methodElementProperty xmi:id="_uGSPkZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_yVASwJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y-Nn0JdAEemppNeXyUOEhQ" name="realizao_dos_itens_da_ao" guid="_y-Nn0JdAEemppNeXyUOEhQ" presentationName="Realização dos itens da ação">
+          <methodElementProperty xmi:id="_y-Nn0ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_0IzysJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0y6foJdAEemppNeXyUOEhQ" name="avaliao_dos_itens_feitos" guid="_0y6foJdAEemppNeXyUOEhQ" presentationName="Avaliação dos itens feitos">
+          <methodElementProperty xmi:id="_0y7GsJdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_1pGgwJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2Fqg8JdAEemppNeXyUOEhQ" name="aceitao_pelo_cliente" guid="_2Fqg8JdAEemppNeXyUOEhQ" presentationName="Aceitação pelo cliente">
+          <methodElementProperty xmi:id="_2Fqg8ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_2-WccJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7pc_EemppNeXyUOEhQ" name="DeliveryProcesses" guid="_A4bx7pc_EemppNeXyUOEhQ"/>
