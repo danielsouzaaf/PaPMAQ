@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_A4jtsJc_EemppNeXyUOEhQ" guid="_A4jtsJc_EemppNeXyUOEhQ"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_A4bx4Jc_EemppNeXyUOEhQ" name="papmaq" guid="_A4bx4Jc_EemppNeXyUOEhQ" presentationName="PaPMAQ" briefDescription="O PaPMAQ(Processo ágil do PMAQ) é um processo desenvolvido em especial para o PMAQ, que é um projeto que roda nacionalmente e foi firmado para ter o desenvolvimento das ferramentas de apoio ao mesmo pelo Núcleo Avançado de Inovação Tecnológica, do IFRN.&#xD;&#xA;" authors="Daniel Souza Affonso Ferreira" changeDate="2019-06-25T08:47:51.948-0300">
+    <methodElementProperty xmi:id="_A4kUwJc_EemppNeXyUOEhQ" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_Cd8-MJc_EemppNeXyUOEhQ" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx4Zc_EemppNeXyUOEhQ" name="Content" guid="_A4bx4Zc_EemppNeXyUOEhQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx4pc_EemppNeXyUOEhQ" name="Categories" guid="_A4bx4pc_EemppNeXyUOEhQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx45c_EemppNeXyUOEhQ" name="Domains" guid="_A4bx45c_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx5Jc_EemppNeXyUOEhQ" name="Disciplines" guid="_A4bx5Jc_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx5Zc_EemppNeXyUOEhQ" name="RoleSets" guid="_A4bx5Zc_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx5pc_EemppNeXyUOEhQ" name="WP Types" guid="_A4bx5pc_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx55c_EemppNeXyUOEhQ" name="Tools" guid="_A4bx55c_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx6Jc_EemppNeXyUOEhQ" name="StandardCategories" guid="_A4bx6Jc_EemppNeXyUOEhQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx6Zc_EemppNeXyUOEhQ" name="CustomCategories" guid="_A4bx6Zc_EemppNeXyUOEhQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx6pc_EemppNeXyUOEhQ" name="Hidden" guid="_A4bx6pc_EemppNeXyUOEhQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_A4bx65c_EemppNeXyUOEhQ" name="Custom Categories" guid="_A4bx65c_EemppNeXyUOEhQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx7Jc_EemppNeXyUOEhQ" name="CoreContent" guid="_A4bx7Jc_EemppNeXyUOEhQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7pc_EemppNeXyUOEhQ" name="DeliveryProcesses" guid="_A4bx7pc_EemppNeXyUOEhQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx75c_EemppNeXyUOEhQ" name="ProcessContributions" guid="_A4bx75c_EemppNeXyUOEhQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
