@@ -26,6 +26,21 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y-Nn0JdAEemppNeXyUOEhQ" name="realizao_dos_itens_da_ao" guid="_y-Nn0JdAEemppNeXyUOEhQ" presentationName="Realização dos itens da ação">
           <methodElementProperty xmi:id="_y-Nn0ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_0IzysJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_L339IJdOEemmr_uYEXdf3w" name="gerente_de_projeto" guid="_L339IJdOEemmr_uYEXdf3w" presentationName="Gerente de Projeto">
+            <methodElementProperty xmi:id="_L4dL8JdOEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_MfWz4JdOEemmr_uYEXdf3w" name="desenvolvedor_pmaq" guid="_MfWz4JdOEemmr_uYEXdf3w" presentationName="Desenvolvedor PMAQ">
+            <methodElementProperty xmi:id="_Nx_gcJdOEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WX3xIJdOEemmr_uYEXdf3w" name="elaborar_documentao_de_apoio" guid="_WX3xIJdOEemmr_uYEXdf3w" presentationName="Elaborar documentação de apoio" performedBy="_MfWz4JdOEemmr_uYEXdf3w _L339IJdOEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_X8LcgJdOEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_b00iAJdOEemmr_uYEXdf3w" name="desenvolver_o_item_de_ao" guid="_b00iAJdOEemmr_uYEXdf3w" presentationName="Desenvolver o item de ação" performedBy="_MfWz4JdOEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_dhwk8JdOEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ep4DkJdOEemmr_uYEXdf3w" name="trocar_informao_sobre_o_progresso_tcnico" guid="_ep4DkJdOEemmr_uYEXdf3w" presentationName="Trocar informação sobre o progresso técnico" performedBy="_MfWz4JdOEemmr_uYEXdf3w _L339IJdOEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_gnzI0JdOEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0y6foJdAEemppNeXyUOEhQ" name="avaliao_dos_itens_feitos" guid="_0y6foJdAEemppNeXyUOEhQ" presentationName="Avaliação dos itens feitos">
           <methodElementProperty xmi:id="_0y7GsJdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
