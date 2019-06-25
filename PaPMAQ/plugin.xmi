@@ -17,6 +17,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_3ckZwJdREemmr_uYEXdf3w" name="avaliao_dos_itens_feitos" guid="_3ckZwJdREemmr_uYEXdf3w" presentationName="Avaliação dos itens feitos" tasks="_pMLvQJdPEemmr_uYEXdf3w _aAaIoJdPEemmr_uYEXdf3w _jHJOMJdQEemmr_uYEXdf3w _UwPPgJdPEemmr_uYEXdf3w">
             <methodElementProperty xmi:id="_4T64gJdREemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_BfYigJdSEemmr_uYEXdf3w" name="aceitao_pelo_cliente" guid="_BfYigJdSEemmr_uYEXdf3w" presentationName="Aceitação pelo cliente" tasks="_xykg0JdQEemmr_uYEXdf3w _v3Iu4JdQEemmr_uYEXdf3w _tWjogJdQEemmr_uYEXdf3w _qu-iQJdQEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_CTb1oJdSEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx5Zc_EemppNeXyUOEhQ" name="RoleSets" guid="_A4bx5Zc_EemppNeXyUOEhQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx5pc_EemppNeXyUOEhQ" name="WP Types" guid="_A4bx5pc_EemppNeXyUOEhQ"/>
