@@ -22,6 +22,30 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_uGSPkJdAEemppNeXyUOEhQ" name="preparao_da_pauta" guid="_uGSPkJdAEemppNeXyUOEhQ" presentationName="Preparação da pauta">
           <methodElementProperty xmi:id="_uGSPkZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_yVASwJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPga0JdPEemmr_uYEXdf3w" name="atribuir_itens_de_ao" guid="_BPga0JdPEemmr_uYEXdf3w" presentationName="Atribuir itens de ação" performedBy="_B22usZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t0JdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPga0ZdPEemmr_uYEXdf3w" name="definir_critrios_de_aceitao" guid="_BPga0ZdPEemmr_uYEXdf3w" presentationName="Definir critérios de aceitação" performedBy="_B22usJdPEemmr_uYEXdf3w _B22usZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t0ZdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPga0pdPEemmr_uYEXdf3w" name="definir_itens_de_ao" guid="_BPga0pdPEemmr_uYEXdf3w" presentationName="Definir itens de ação" performedBy="_B22usZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t0pdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPhB4JdPEemmr_uYEXdf3w" name="definir_observaes" guid="_BPhB4JdPEemmr_uYEXdf3w" presentationName="Definir observações" performedBy="_B22usJdPEemmr_uYEXdf3w _B22usZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t05dPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPhB4ZdPEemmr_uYEXdf3w" name="estabelecer_as_necessidades" guid="_BPhB4ZdPEemmr_uYEXdf3w" presentationName="Estabelecer as necessidades" performedBy="_B22usJdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t1JdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BPhB4pdPEemmr_uYEXdf3w" name="revisar_itens_de_ao" guid="_BPhB4pdPEemmr_uYEXdf3w" presentationName="Revisar itens de ação" performedBy="_B22usZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_BP9t1ZdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_B22usJdPEemmr_uYEXdf3w" name="consultor" guid="_B22usJdPEemmr_uYEXdf3w" presentationName="Consultor">
+            <methodElementProperty xmi:id="_B3XsEJdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_B22usZdPEemmr_uYEXdf3w" name="gerente_de_projeto" guid="_B22usZdPEemmr_uYEXdf3w" presentationName="Gerente de Projeto">
+            <methodElementProperty xmi:id="_B3YTIJdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_y-Nn0JdAEemppNeXyUOEhQ" name="realizao_dos_itens_da_ao" guid="_y-Nn0JdAEemppNeXyUOEhQ" presentationName="Realização dos itens da ação">
           <methodElementProperty xmi:id="_y-Nn0ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
@@ -45,6 +69,27 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0y6foJdAEemppNeXyUOEhQ" name="avaliao_dos_itens_feitos" guid="_0y6foJdAEemppNeXyUOEhQ" presentationName="Avaliação dos itens feitos">
           <methodElementProperty xmi:id="_0y7GsJdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_1pGgwJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TyVc0JdPEemmr_uYEXdf3w" name="desenvolvedor_pmaq" guid="_TyVc0JdPEemmr_uYEXdf3w" presentationName="Desenvolvedor PMAQ">
+            <methodElementProperty xmi:id="_Ty5dgJdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_TyVc0ZdPEemmr_uYEXdf3w" name="gerente_de_projeto" guid="_TyVc0ZdPEemmr_uYEXdf3w" presentationName="Gerente de Projeto">
+            <methodElementProperty xmi:id="_Ty5dgZdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UwPPgJdPEemmr_uYEXdf3w" name="trocar_informao_sobre_o_progresso_tcnico" guid="_UwPPgJdPEemmr_uYEXdf3w" presentationName="Trocar informação sobre o progresso técnico" performedBy="_TyVc0JdPEemmr_uYEXdf3w _TyVc0ZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_ZMta0JdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aAaIoJdPEemmr_uYEXdf3w" name="obter_acordo_quanto_aos_itens_feitos" guid="_aAaIoJdPEemmr_uYEXdf3w" presentationName="Obter acordo quanto aos itens feitos" performedBy="_TyVc0ZdPEemmr_uYEXdf3w _ljkCwJdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_a-ik0JdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ljkCwJdPEemmr_uYEXdf3w" name="consultor" guid="_ljkCwJdPEemmr_uYEXdf3w" presentationName="Consultor">
+            <methodElementProperty xmi:id="_lkDyAJdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pMLvQJdPEemmr_uYEXdf3w" name="avaliar_se_o_que_foi_feito_est_de_acordo_com_o_critrio_de_aceitao" guid="_pMLvQJdPEemmr_uYEXdf3w" presentationName="Avaliar se o que foi feito está de acordo com o critério de aceitação" performedBy="_TyVc0ZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_sslT4JdPEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jHJOMJdQEemmr_uYEXdf3w" name="teste_de_integrao_dos_itens_de_ao" guid="_jHJOMJdQEemmr_uYEXdf3w" presentationName="Teste de integração dos itens de ação" performedBy="_TyVc0JdPEemmr_uYEXdf3w _TyVc0ZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_loDrwJdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2Fqg8JdAEemppNeXyUOEhQ" name="aceitao_pelo_cliente" guid="_2Fqg8JdAEemppNeXyUOEhQ" presentationName="Aceitação pelo cliente">
           <methodElementProperty xmi:id="_2Fqg8ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
@@ -55,23 +100,20 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_H5M-kJdCEemppNeXyUOEhQ" name="gerente_de_projeto" guid="_H5M-kJdCEemppNeXyUOEhQ" presentationName="Gerente de Projeto">
             <methodElementProperty xmi:id="_JAD48JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yw8V8JdCEemppNeXyUOEhQ" name="estabelecer_as_necessidades" guid="_yw8V8JdCEemppNeXyUOEhQ" presentationName="Estabelecer as necessidades" performedBy="_FSLR8JdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_10XqsJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qCAukJdQEemmr_uYEXdf3w" name="desenvolvedor_pmaq" guid="_qCAukJdQEemmr_uYEXdf3w" presentationName="Desenvolvedor PMAQ">
+            <methodElementProperty xmi:id="_qChr8JdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3Y4KYJdCEemppNeXyUOEhQ" name="definir_itens_de_ao" guid="_3Y4KYJdCEemppNeXyUOEhQ" presentationName="Definir itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_4XsjEJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qu-iQJdQEemmr_uYEXdf3w" name="enviar_as_mudanas_para_o_ambiente_de_homologao" guid="_qu-iQJdQEemmr_uYEXdf3w" presentationName="Enviar as mudanças para o ambiente de homologação" performedBy="_TyVc0JdPEemmr_uYEXdf3w _TyVc0ZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_tGAEAJdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4yK4kJdCEemppNeXyUOEhQ" name="revisar_itens_de_ao" guid="_4yK4kJdCEemppNeXyUOEhQ" presentationName="Revisar itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_5_UBIJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tWjogJdQEemmr_uYEXdf3w" name="elaborao_de_documento_de_registro_de_mudanas" guid="_tWjogJdQEemmr_uYEXdf3w" presentationName="Elaboração de documento de registro de mudanças" performedBy="_TyVc0JdPEemmr_uYEXdf3w _TyVc0ZdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_urk6sJdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_6UJBoJdCEemppNeXyUOEhQ" name="atribuir_itens_de_ao" guid="_6UJBoJdCEemppNeXyUOEhQ" presentationName="Atribuir itens de ação" performedBy="_H5M-kJdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_7IDx4JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_v3Iu4JdQEemmr_uYEXdf3w" name="avaliar_o_produto_entregue" guid="_v3Iu4JdQEemmr_uYEXdf3w" presentationName="Avaliar o produto entregue" performedBy="_ljkCwJdPEemmr_uYEXdf3w">
+            <methodElementProperty xmi:id="_xa6OwJdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7gW9IJdCEemppNeXyUOEhQ" name="definir_observaes" guid="_7gW9IJdCEemppNeXyUOEhQ" presentationName="Definir observações" performedBy="_FSLR8JdCEemppNeXyUOEhQ _H5M-kJdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_8Wi-QJdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9F7z0JdCEemppNeXyUOEhQ" name="definir_critrios_de_aceitao" guid="_9F7z0JdCEemppNeXyUOEhQ" presentationName="Definir critérios de aceitação" performedBy="_FSLR8JdCEemppNeXyUOEhQ _H5M-kJdCEemppNeXyUOEhQ">
-            <methodElementProperty xmi:id="_-In_4JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xykg0JdQEemmr_uYEXdf3w" name="apresentar_na_reunio" guid="_xykg0JdQEemmr_uYEXdf3w" presentationName="Apresentar na reunião" performedBy="_qCAukJdQEemmr_uYEXdf3w _H5M-kJdCEemppNeXyUOEhQ">
+            <methodElementProperty xmi:id="_0ZxzoJdQEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
