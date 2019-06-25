@@ -34,6 +34,12 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2Fqg8JdAEemppNeXyUOEhQ" name="aceitao_pelo_cliente" guid="_2Fqg8JdAEemppNeXyUOEhQ" presentationName="Aceitação pelo cliente">
           <methodElementProperty xmi:id="_2Fqg8ZdAEemppNeXyUOEhQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_2-WccJdAEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_FSLR8JdCEemppNeXyUOEhQ" name="consultor" guid="_FSLR8JdCEemppNeXyUOEhQ" presentationName="Consultor">
+            <methodElementProperty xmi:id="_HMY74JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_H5M-kJdCEemppNeXyUOEhQ" name="gerente_de_projeto" guid="_H5M-kJdCEemppNeXyUOEhQ" presentationName="Gerente de Projeto">
+            <methodElementProperty xmi:id="_JAD48JdCEemppNeXyUOEhQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ"/>
