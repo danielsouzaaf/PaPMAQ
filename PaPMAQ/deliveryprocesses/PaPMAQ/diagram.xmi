@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
   <uml:Activity xmi:id="_M_NgQJkdEemH5-M2tAcphw" name="PaPMAQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M_NgQZkdEemH5-M2tAcphw" source="uma_element">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M_NgQpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_HW-FYZkdEemH5-M2tAcphw"/>
@@ -213,5 +213,21 @@
     <styles xmi:type="notation:PageStyle" xmi:id="_fX8yJZkdEemH5-M2tAcphw"/>
     <styles xmi:type="notation:GuideStyle" xmi:id="_fX8yJpkdEemH5-M2tAcphw"/>
     <styles xmi:type="notation:DescriptionStyle" xmi:id="_fX8yJ5kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_X3qbEJkeEemH5-M2tAcphw" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_HW-FYJkdEemH5-M2tAcphw#_HW-FYZkdEemH5-M2tAcphw"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_X3rCIJkeEemH5-M2tAcphw" type="ADD" element="_X3qbEJkeEemH5-M2tAcphw" name="PaPMAQ" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_X3rCIZkeEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_X3rCIpkeEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_X3rCI5keEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_YGWXUJkeEemH5-M2tAcphw" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Iteration" href="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVfJkdEemH5-M2tAcphw"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_YGW-YJkeEemH5-M2tAcphw" type="ADD" element="_YGWXUJkeEemH5-M2tAcphw" name="Iteração 1" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_YGW-YZkeEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_YGW-YpkeEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_YGW-Y5keEemH5-M2tAcphw"/>
   </notation:Diagram>
 </xmi:XMI>
