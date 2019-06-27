@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_A4jtsJc_EemppNeXyUOEhQ" guid="_A4jtsJc_EemppNeXyUOEhQ"/>
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_A4jtsJc_EemppNeXyUOEhQ" guid="_A4jtsJc_EemppNeXyUOEhQ">
+    <subManagers xmi:id="_V7Oq8JkbEemH5-M2tAcphw" href="uma://_VqQ2wJkbEemH5-M2tAcphw#_V7Oq8JkbEemH5-M2tAcphw"/>
+    <subManagers xmi:id="_HXY8IJkdEemH5-M2tAcphw" href="uma://_HW-FYJkdEemH5-M2tAcphw#_HXY8IJkdEemH5-M2tAcphw"/>
+    <resourceDescriptors xmi:id="_V7M1wJkbEemH5-M2tAcphw" id="_VqQ2wJkbEemH5-M2tAcphw" uri="capabilitypatterns/Iteração%201/model.xmi"/>
+    <resourceDescriptors xmi:id="_HXXuAJkdEemH5-M2tAcphw" id="_HW-FYJkdEemH5-M2tAcphw" uri="deliveryprocesses/PaPMAQ/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_A4bx4Jc_EemppNeXyUOEhQ" name="papmaq" guid="_A4bx4Jc_EemppNeXyUOEhQ" presentationName="PaPMAQ" briefDescription="O PaPMAQ(Processo ágil do PMAQ) é um processo desenvolvido em especial para o PMAQ, que é um projeto que roda nacionalmente e foi firmado para ter o desenvolvimento das ferramentas de apoio ao mesmo pelo Núcleo Avançado de Inovação Tecnológica, do IFRN.&#xD;&#xA;" authors="Daniel Souza Affonso Ferreira" changeDate="2019-06-25T08:47:51.948-0300">
     <methodElementProperty xmi:id="_A4kUwJc_EemppNeXyUOEhQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_Cd8-MJc_EemppNeXyUOEhQ" name="me_edited" value="true"/>
@@ -29,7 +34,7 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A4bx6pc_EemppNeXyUOEhQ" name="Hidden" guid="_A4bx6pc_EemppNeXyUOEhQ">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_A4bx65c_EemppNeXyUOEhQ" name="Custom Categories" guid="_A4bx65c_EemppNeXyUOEhQ" categorizedElements="_QW1e8JdSEemmr_uYEXdf3w"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QW1e8JdSEemmr_uYEXdf3w" name="implementao_de_mudanas_no_pmaq" guid="_QW1e8JdSEemmr_uYEXdf3w" presentationName="Implementação de mudanças no PMAQ" categorizedElements="_YXtlIJdSEemmr_uYEXdf3w _eyi6kJdSEemmr_uYEXdf3w _h6sXQJdSEemmr_uYEXdf3w">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_QW1e8JdSEemmr_uYEXdf3w" name="implementao_de_mudanas_no_pmaq" guid="_QW1e8JdSEemmr_uYEXdf3w" presentationName="Implementação de mudanças no PMAQ" categorizedElements="_YXtlIJdSEemmr_uYEXdf3w _eyi6kJdSEemmr_uYEXdf3w _h6sXQJdSEemmr_uYEXdf3w _jATY4JkdEemH5-M2tAcphw">
             <methodElementProperty xmi:id="_UZ3PgJdSEemmr_uYEXdf3w" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YXtlIJdSEemmr_uYEXdf3w" name="atividades" guid="_YXtlIJdSEemmr_uYEXdf3w" presentationName="Atividades" categorizedElements="_BfYigJdSEemmr_uYEXdf3w _3ckZwJdREemmr_uYEXdf3w _WP-5EJdREemmr_uYEXdf3w _u4PoQJdREemmr_uYEXdf3w">
@@ -40,6 +45,10 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_h6sXQJdSEemmr_uYEXdf3w" name="tarefas" guid="_h6sXQJdSEemmr_uYEXdf3w" presentationName="Tarefas" categorizedElements="_xykg0JdQEemmr_uYEXdf3w _v3Iu4JdQEemmr_uYEXdf3w _tWjogJdQEemmr_uYEXdf3w _qu-iQJdQEemmr_uYEXdf3w _pMLvQJdPEemmr_uYEXdf3w _aAaIoJdPEemmr_uYEXdf3w _jHJOMJdQEemmr_uYEXdf3w _UwPPgJdPEemmr_uYEXdf3w _BPga0JdPEemmr_uYEXdf3w _BPga0ZdPEemmr_uYEXdf3w _BPga0pdPEemmr_uYEXdf3w _BPhB4JdPEemmr_uYEXdf3w _BPhB4ZdPEemmr_uYEXdf3w _BPhB4pdPEemmr_uYEXdf3w _b00iAJdOEemmr_uYEXdf3w _WX3xIJdOEemmr_uYEXdf3w _ep4DkJdOEemmr_uYEXdf3w">
             <methodElementProperty xmi:id="_liZdwJdSEemmr_uYEXdf3w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jATY4JkdEemH5-M2tAcphw" name="processo" guid="_jATY4JkdEemH5-M2tAcphw" presentationName="Processo">
+            <methodElementProperty xmi:id="_kEYsEJkdEemH5-M2tAcphw" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_HW-FYJkdEemH5-M2tAcphw#_HW-FYZkdEemH5-M2tAcphw"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -142,9 +151,13 @@
           </contentElements>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7Zc_EemppNeXyUOEhQ" name="CapabilityPatterns" guid="_A4bx7Zc_EemppNeXyUOEhQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_VqQ2wJkbEemH5-M2tAcphw" href="uma://_VqQ2wJkbEemH5-M2tAcphw#_VqQ2wJkbEemH5-M2tAcphw"/>
+      </childPackages>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7pc_EemppNeXyUOEhQ" name="DeliveryProcesses" guid="_A4bx7pc_EemppNeXyUOEhQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx7pc_EemppNeXyUOEhQ" name="DeliveryProcesses" guid="_A4bx7pc_EemppNeXyUOEhQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_HW-FYJkdEemH5-M2tAcphw" href="uma://_HW-FYJkdEemH5-M2tAcphw#_HW-FYJkdEemH5-M2tAcphw"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_A4bx75c_EemppNeXyUOEhQ" name="ProcessContributions" guid="_A4bx75c_EemppNeXyUOEhQ"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

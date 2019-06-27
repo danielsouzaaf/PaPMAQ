@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_HXY8IJkdEemH5-M2tAcphw" guid="_HXY8IJkdEemH5-M2tAcphw">
+    <resourceDescriptors xmi:id="_HXY8IZkdEemH5-M2tAcphw" id="-uNwxUByLS_OqS5KyBB_4ig" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_HW-FYJkdEemH5-M2tAcphw" name="PaPMAQ" guid="_HW-FYJkdEemH5-M2tAcphw">
+    <methodElementProperty xmi:id="_HW-scJkdEemH5-M2tAcphw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_LuVuQJkdEemH5-M2tAcphw" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_K2gHUJkdEemH5-M2tAcphw" name="Iteração 1" guid="_K2gHUJkdEemH5-M2tAcphw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_K2gHUZkdEemH5-M2tAcphw" name="Aceitação pelo Cliente" guid="_K2gHUZkdEemH5-M2tAcphw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_K2guZJkdEemH5-M2tAcphw" name="Aceitação pelo Cliente" guid="_K2guZJkdEemH5-M2tAcphw" presentationName="Aceitação pelo Cliente" superActivities="_K2hVfJkdEemH5-M2tAcphw" linkToPredecessor="_K2hVcZkdEemH5-M2tAcphw" breakdownElements="_K2guYJkdEemH5-M2tAcphw _K2guZpkdEemH5-M2tAcphw _K2guZZkdEemH5-M2tAcphw _K2guYpkdEemH5-M2tAcphw _K2guaJkdEemH5-M2tAcphw _K2guYZkdEemH5-M2tAcphw _K2guY5kdEemH5-M2tAcphw _K2guZ5kdEemH5-M2tAcphw _K2guaZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2guYJkdEemH5-M2tAcphw" name="apresentar_na_reunio" guid="_K2guYJkdEemH5-M2tAcphw" presentationName="Apresentar na reunião" superActivities="_K2guZJkdEemH5-M2tAcphw" linkToPredecessor="_K2gua5kdEemH5-M2tAcphw" performedPrimarilyBy="_K2guaJkdEemH5-M2tAcphw _K2guYZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKoJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_xykg0JdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2guZpkdEemH5-M2tAcphw" name="avaliar_o_produto_entregue" guid="_K2guZpkdEemH5-M2tAcphw" presentationName="Avaliar o produto entregue" superActivities="_K2guZJkdEemH5-M2tAcphw" linkToPredecessor="_K2hVcJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2guY5kdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKoZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_v3Iu4JdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2guZZkdEemH5-M2tAcphw" name="elaborao_de_documento_de_registro_de_mudanas" guid="_K2guZZkdEemH5-M2tAcphw" presentationName="Elaboração de documento de registro de mudanças" superActivities="_K2guZJkdEemH5-M2tAcphw" linkToPredecessor="_K2guapkdEemH5-M2tAcphw" performedPrimarilyBy="_K2guZ5kdEemH5-M2tAcphw _K2guaZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKopkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_tWjogJdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2guYpkdEemH5-M2tAcphw" name="enviar_as_mudanas_para_o_ambiente_de_homologao" guid="_K2guYpkdEemH5-M2tAcphw" presentationName="Enviar as mudanças para o ambiente de homologação" superActivities="_K2guZJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2guZ5kdEemH5-M2tAcphw _K2guaZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKo5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_qu-iQJdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2guaJkdEemH5-M2tAcphw" name="desenvolvedor_pmaq" guid="_K2guaJkdEemH5-M2tAcphw" presentationName="Desenvolvedor PMAQ" isPlanned="false" superActivities="_K2guZJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKpJkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKpZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_qCAukJdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2guYZkdEemH5-M2tAcphw" name="gerente_de_projeto" guid="_K2guYZkdEemH5-M2tAcphw" presentationName="Gerente de Projeto" isPlanned="false" superActivities="_K2guZJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKppkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKp5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_H5M-kJdCEemppNeXyUOEhQ"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2guY5kdEemH5-M2tAcphw" name="consultor" guid="_K2guY5kdEemH5-M2tAcphw" presentationName="Consultor" isPlanned="false" superActivities="_K2guZJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKqJkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKqZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_ljkCwJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2guZ5kdEemH5-M2tAcphw" name="desenvolvedor_pmaq" guid="_K2guZ5kdEemH5-M2tAcphw" presentationName="Desenvolvedor PMAQ" isPlanned="false" superActivities="_K2guZJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKqpkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKq5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_TyVc0JdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2guaZkdEemH5-M2tAcphw" name="gerente_de_projeto" guid="_K2guaZkdEemH5-M2tAcphw" presentationName="Gerente de Projeto" isPlanned="false" superActivities="_K2guZJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKrJkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKrZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_TyVc0ZdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2hVcZkdEemH5-M2tAcphw" guid="_K2hVcZkdEemH5-M2tAcphw" pred="_K2ijl5kdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2guapkdEemH5-M2tAcphw" guid="_K2guapkdEemH5-M2tAcphw" pred="_K2guYpkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2hVcJkdEemH5-M2tAcphw" guid="_K2hVcJkdEemH5-M2tAcphw" pred="_K2guZZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2gua5kdEemH5-M2tAcphw" guid="_K2gua5kdEemH5-M2tAcphw" pred="_K2guZpkdEemH5-M2tAcphw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_K2h8jpkdEemH5-M2tAcphw" name="Avaliação dos Itens Feitos" guid="_K2h8jpkdEemH5-M2tAcphw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_K2ijl5kdEemH5-M2tAcphw" name="Avaliação dos Itens Feitos" guid="_K2ijl5kdEemH5-M2tAcphw" presentationName="Avaliação dos Itens Feitos" superActivities="_K2hVfJkdEemH5-M2tAcphw" linkToPredecessor="_K2h8kZkdEemH5-M2tAcphw" breakdownElements="_K2ijmJkdEemH5-M2tAcphw _K2ijkZkdEemH5-M2tAcphw _K2ijlpkdEemH5-M2tAcphw _K2h8j5kdEemH5-M2tAcphw _K2ijkJkdEemH5-M2tAcphw _K2ijkpkdEemH5-M2tAcphw _K2ijlZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2ijmJkdEemH5-M2tAcphw" name="avaliar_se_o_que_foi_feito_est_de_acordo_com_o_critrio_de_aceitao" guid="_K2ijmJkdEemH5-M2tAcphw" presentationName="Avaliar se o que foi feito está de acordo com o critério de aceitação" superActivities="_K2ijl5kdEemH5-M2tAcphw" linkToPredecessor="_K2h8kJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2ijkJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKrpkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_pMLvQJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2ijkZkdEemH5-M2tAcphw" name="obter_acordo_quanto_aos_itens_feitos" guid="_K2ijkZkdEemH5-M2tAcphw" presentationName="Obter acordo quanto aos itens feitos" superActivities="_K2ijl5kdEemH5-M2tAcphw" linkToPredecessor="_K2ijlJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2ijkpkdEemH5-M2tAcphw _K2ijkJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKr5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_aAaIoJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2ijlpkdEemH5-M2tAcphw" name="teste_de_integrao_dos_itens_de_ao" guid="_K2ijlpkdEemH5-M2tAcphw" presentationName="Teste de integração dos itens de ação" superActivities="_K2ijl5kdEemH5-M2tAcphw" linkToPredecessor="_K2ijk5kdEemH5-M2tAcphw" performedPrimarilyBy="_K2ijlZkdEemH5-M2tAcphw _K2ijkJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKsJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_jHJOMJdQEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8j5kdEemH5-M2tAcphw" name="trocar_informao_sobre_o_progresso_tcnico" guid="_K2h8j5kdEemH5-M2tAcphw" presentationName="Trocar informação sobre o progresso técnico" superActivities="_K2ijl5kdEemH5-M2tAcphw" performedPrimarilyBy="_K2ijlZkdEemH5-M2tAcphw _K2ijkJkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKsZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_UwPPgJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2ijkJkdEemH5-M2tAcphw" name="gerente_de_projeto" guid="_K2ijkJkdEemH5-M2tAcphw" presentationName="Gerente de Projeto" isPlanned="false" superActivities="_K2ijl5kdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKspkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKs5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_TyVc0ZdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2ijkpkdEemH5-M2tAcphw" name="consultor" guid="_K2ijkpkdEemH5-M2tAcphw" presentationName="Consultor" isPlanned="false" superActivities="_K2ijl5kdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKtJkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKtZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_ljkCwJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2ijlZkdEemH5-M2tAcphw" name="desenvolvedor_pmaq" guid="_K2ijlZkdEemH5-M2tAcphw" presentationName="Desenvolvedor PMAQ" isPlanned="false" superActivities="_K2ijl5kdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKtpkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKt5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_TyVc0JdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8kZkdEemH5-M2tAcphw" guid="_K2h8kZkdEemH5-M2tAcphw" pred="_K2hVeZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2ijlJkdEemH5-M2tAcphw" guid="_K2ijlJkdEemH5-M2tAcphw" pred="_K2h8j5kdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8kJkdEemH5-M2tAcphw" guid="_K2h8kJkdEemH5-M2tAcphw" pred="_K2ijkZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2ijk5kdEemH5-M2tAcphw" guid="_K2ijk5kdEemH5-M2tAcphw" pred="_K2ijmJkdEemH5-M2tAcphw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_K2hVfZkdEemH5-M2tAcphw" name="Preparação da Pauta" guid="_K2hVfZkdEemH5-M2tAcphw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_K2h8hZkdEemH5-M2tAcphw" name="Preparação da Pauta" guid="_K2h8hZkdEemH5-M2tAcphw" presentationName="Preparação da Pauta" superActivities="_K2hVfJkdEemH5-M2tAcphw" breakdownElements="_K2h8hJkdEemH5-M2tAcphw _K2h8hpkdEemH5-M2tAcphw _K2h8i5kdEemH5-M2tAcphw _K2h8gJkdEemH5-M2tAcphw _K2h8iZkdEemH5-M2tAcphw _K2h8jJkdEemH5-M2tAcphw _K2h8gZkdEemH5-M2tAcphw _K2h8jZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8hJkdEemH5-M2tAcphw" name="atribuir_itens_de_ao" guid="_K2h8hJkdEemH5-M2tAcphw" presentationName="Atribuir itens de ação" superActivities="_K2h8hZkdEemH5-M2tAcphw" linkToPredecessor="_K2h8h5kdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8gZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKuJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPga0JdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8hpkdEemH5-M2tAcphw" name="definir_critrios_de_aceitao" guid="_K2h8hpkdEemH5-M2tAcphw" presentationName="Definir critérios de aceitação" superActivities="_K2h8hZkdEemH5-M2tAcphw" linkToPredecessor="_K2h8iJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8jZkdEemH5-M2tAcphw _K2h8gZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKuZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPga0ZdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8i5kdEemH5-M2tAcphw" name="definir_itens_de_ao" guid="_K2h8i5kdEemH5-M2tAcphw" presentationName="Definir itens de ação" superActivities="_K2h8hZkdEemH5-M2tAcphw" linkToPredecessor="_K2h8gpkdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8gZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKupkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPga0pdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8gJkdEemH5-M2tAcphw" name="definir_observaes" guid="_K2h8gJkdEemH5-M2tAcphw" presentationName="Definir observações" superActivities="_K2h8hZkdEemH5-M2tAcphw" linkToPredecessor="_K2h8ipkdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8jZkdEemH5-M2tAcphw _K2h8gZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKu5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPhB4JdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8iZkdEemH5-M2tAcphw" name="estabelecer_as_necessidades" guid="_K2h8iZkdEemH5-M2tAcphw" presentationName="Estabelecer as necessidades" superActivities="_K2h8hZkdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8jZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKvJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPhB4ZdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2h8jJkdEemH5-M2tAcphw" name="revisar_itens_de_ao" guid="_K2h8jJkdEemH5-M2tAcphw" presentationName="Revisar itens de ação" superActivities="_K2h8hZkdEemH5-M2tAcphw" linkToPredecessor="_K2h8g5kdEemH5-M2tAcphw" performedPrimarilyBy="_K2h8gZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKvZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_BPhB4pdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2h8gZkdEemH5-M2tAcphw" name="gerente_de_projeto" guid="_K2h8gZkdEemH5-M2tAcphw" presentationName="Gerente de Projeto" isPlanned="false" superActivities="_K2h8hZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKvpkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKv5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_B22usZdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2h8jZkdEemH5-M2tAcphw" name="consultor" guid="_K2h8jZkdEemH5-M2tAcphw" presentationName="Consultor" isPlanned="false" superActivities="_K2h8hZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKwJkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKwZkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_B22usJdPEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8gpkdEemH5-M2tAcphw" guid="_K2h8gpkdEemH5-M2tAcphw" pred="_K2h8iZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8g5kdEemH5-M2tAcphw" guid="_K2h8g5kdEemH5-M2tAcphw" pred="_K2h8i5kdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8h5kdEemH5-M2tAcphw" guid="_K2h8h5kdEemH5-M2tAcphw" pred="_K2h8jJkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8ipkdEemH5-M2tAcphw" guid="_K2h8ipkdEemH5-M2tAcphw" pred="_K2h8hJkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2h8iJkdEemH5-M2tAcphw" guid="_K2h8iJkdEemH5-M2tAcphw" pred="_K2h8gJkdEemH5-M2tAcphw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_K2hVcpkdEemH5-M2tAcphw" name="Realização dos Itens de Ação" guid="_K2hVcpkdEemH5-M2tAcphw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_K2hVeZkdEemH5-M2tAcphw" name="Realização dos Itens de Ação" guid="_K2hVeZkdEemH5-M2tAcphw" presentationName="Realização dos Itens de Ação" superActivities="_K2hVfJkdEemH5-M2tAcphw" linkToPredecessor="_K2hVe5kdEemH5-M2tAcphw" breakdownElements="_K2hVd5kdEemH5-M2tAcphw _K2hVeJkdEemH5-M2tAcphw _K2hVepkdEemH5-M2tAcphw _K2hVdZkdEemH5-M2tAcphw _K2hVc5kdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2hVd5kdEemH5-M2tAcphw" name="desenvolver_o_item_de_ao" guid="_K2hVd5kdEemH5-M2tAcphw" presentationName="Desenvolver o item de ação" superActivities="_K2hVeZkdEemH5-M2tAcphw" linkToPredecessor="_K2hVdJkdEemH5-M2tAcphw" performedPrimarilyBy="_K2hVdZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKwpkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_b00iAJdOEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2hVeJkdEemH5-M2tAcphw" name="elaborar_documentao_de_apoio" guid="_K2hVeJkdEemH5-M2tAcphw" presentationName="Elaborar documentação de apoio" superActivities="_K2hVeZkdEemH5-M2tAcphw" performedPrimarilyBy="_K2hVc5kdEemH5-M2tAcphw _K2hVdZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKw5kdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_WX3xIJdOEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2hVepkdEemH5-M2tAcphw" name="trocar_informao_sobre_o_progresso_tcnico" guid="_K2hVepkdEemH5-M2tAcphw" presentationName="Trocar informação sobre o progresso técnico" superActivities="_K2hVeZkdEemH5-M2tAcphw" linkToPredecessor="_K2hVdpkdEemH5-M2tAcphw" performedPrimarilyBy="_K2hVdZkdEemH5-M2tAcphw _K2hVc5kdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKxJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_ep4DkJdOEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2hVdZkdEemH5-M2tAcphw" name="desenvolvedor_pmaq" guid="_K2hVdZkdEemH5-M2tAcphw" presentationName="Desenvolvedor PMAQ" isPlanned="false" superActivities="_K2hVeZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKxZkdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKxpkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_MfWz4JdOEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_K2hVc5kdEemH5-M2tAcphw" name="gerente_de_projeto" guid="_K2hVc5kdEemH5-M2tAcphw" presentationName="Gerente de Projeto" isPlanned="false" superActivities="_K2hVeZkdEemH5-M2tAcphw">
+          <methodElementProperty xmi:id="_K2jKx5kdEemH5-M2tAcphw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_K2jKyJkdEemH5-M2tAcphw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_A4bx4Jc_EemppNeXyUOEhQ#_L339IJdOEemmr_uYEXdf3w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2hVe5kdEemH5-M2tAcphw" guid="_K2hVe5kdEemH5-M2tAcphw" pred="_K2h8hZkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2hVdJkdEemH5-M2tAcphw" guid="_K2hVdJkdEemH5-M2tAcphw" pred="_K2hVeJkdEemH5-M2tAcphw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K2hVdpkdEemH5-M2tAcphw" guid="_K2hVdpkdEemH5-M2tAcphw" pred="_K2hVd5kdEemH5-M2tAcphw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_K2hVfJkdEemH5-M2tAcphw" name="Iteração 1" guid="_K2hVfJkdEemH5-M2tAcphw" presentationName="Iteração 1" superActivities="_HW-FYZkdEemH5-M2tAcphw" isRepeatable="true" breakdownElements="_K2guZJkdEemH5-M2tAcphw _K2ijl5kdEemH5-M2tAcphw _K2h8hZkdEemH5-M2tAcphw _K2hVeZkdEemH5-M2tAcphw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_HW-FYZkdEemH5-M2tAcphw" name="PaPMAQ" guid="_HW-FYZkdEemH5-M2tAcphw" presentationName="PaPMAQ" breakdownElements="_K2hVfJkdEemH5-M2tAcphw">
+      <presentation xmi:id="-uNwxUByLS_OqS5KyBB_4ig" href="uma://-uNwxUByLS_OqS5KyBB_4ig#-uNwxUByLS_OqS5KyBB_4ig"/>
+      <defaultContext href="uma://_6LVnwJc-EemppNeXyUOEhQ#_paYb8JdSEemmr_uYEXdf3w"/>
+      <validContext href="uma://_6LVnwJc-EemppNeXyUOEhQ#_paYb8JdSEemmr_uYEXdf3w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

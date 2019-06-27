@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Activity xmi:id="_M_NgQJkdEemH5-M2tAcphw" name="PaPMAQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M_NgQZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M_NgQpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_HW-FYZkdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M_NgQ5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_NT8aIJkdEemH5-M2tAcphw" name="Iteração 1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NT8aIZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NT8aIpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVfJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NT8aI5kdEemH5-M2tAcphw" key="type" value="Iteration"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_M_9HIJkdEemH5-M2tAcphw" type="AD" element="_M_NgQJkdEemH5-M2tAcphw" name="PaPMAQ" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_M_9HIZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_M_9uMJkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_M_9uMZkdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_dYKrsJkdEemH5-M2tAcphw" name="Iteração 1">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYKrsZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYKrspkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVfJkdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYKrs5kdEemH5-M2tAcphw" key="type" value="Iteration"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_dYZ8QJkdEemH5-M2tAcphw" name="Aceitação pelo Cliente" incoming="_dYbKYZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYZ8QZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYZ8QpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guZJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYZ8Q5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_dYajUJkdEemH5-M2tAcphw" name="Avaliação dos Itens Feitos" outgoing="_dYbKYZkdEemH5-M2tAcphw" incoming="_dYbKYpkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYajUZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajUpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2ijl5kdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajU5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_dYajVJkdEemH5-M2tAcphw" name="Preparação da Pauta" outgoing="_dYbKYJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYajVZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajVpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8hZkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajV5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_dYajWJkdEemH5-M2tAcphw" name="Realização dos Itens de Ação" outgoing="_dYbKYpkdEemH5-M2tAcphw" incoming="_dYbKYJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYajWZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajWpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVeZkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dYajW5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dYbKYJkdEemH5-M2tAcphw" source="_dYajVJkdEemH5-M2tAcphw" target="_dYajWJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dYbKYZkdEemH5-M2tAcphw" source="_dYajUJkdEemH5-M2tAcphw" target="_dYZ8QJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dYbKYpkdEemH5-M2tAcphw" source="_dYajWJkdEemH5-M2tAcphw" target="_dYajUJkdEemH5-M2tAcphw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_dYKrtJkdEemH5-M2tAcphw" type="AD" element="_dYKrsJkdEemH5-M2tAcphw" name="Iteração 1" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_dYKrtZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_dYKrtpkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_dYKrt5kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_d3oO4JkdEemH5-M2tAcphw" name="Preparação da Pauta">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d3oO4ZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d3oO4pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8hZkdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d3oO45kdEemH5-M2tAcphw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J0JkdEemH5-M2tAcphw" name="Atribuir itens de ação" outgoing="_d38_AJkdEemH5-M2tAcphw" incoming="_d38X8ZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J0ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J0pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8hJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J05kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J1JkdEemH5-M2tAcphw" name="Definir critérios de aceitação" incoming="_d38_AZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J1ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J1pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8hpkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J15kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J2JkdEemH5-M2tAcphw" name="Definir itens de ação" outgoing="_d37w4JkdEemH5-M2tAcphw" incoming="_d38X8JkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J2ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J2pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8i5kdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J25kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J3JkdEemH5-M2tAcphw" name="Definir observações" outgoing="_d38_AZkdEemH5-M2tAcphw" incoming="_d38_AJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J3ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J3pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8gJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J35kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J4JkdEemH5-M2tAcphw" name="Estabelecer as necessidades" outgoing="_d38X8JkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J4ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J4pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8iZkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J45kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_d37J5JkdEemH5-M2tAcphw" name="Revisar itens de ação" outgoing="_d38X8ZkdEemH5-M2tAcphw" incoming="_d37w4JkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d37J5ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J5pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8jJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d37J55kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d37w4JkdEemH5-M2tAcphw" source="_d37J2JkdEemH5-M2tAcphw" target="_d37J5JkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d38X8JkdEemH5-M2tAcphw" source="_d37J4JkdEemH5-M2tAcphw" target="_d37J2JkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d38X8ZkdEemH5-M2tAcphw" source="_d37J5JkdEemH5-M2tAcphw" target="_d37J0JkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d38_AJkdEemH5-M2tAcphw" source="_d37J0JkdEemH5-M2tAcphw" target="_d37J3JkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d38_AZkdEemH5-M2tAcphw" source="_d37J3JkdEemH5-M2tAcphw" target="_d37J1JkdEemH5-M2tAcphw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_d3oO5JkdEemH5-M2tAcphw" type="AD" element="_d3oO4JkdEemH5-M2tAcphw" name="Preparação da Pauta" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_d3oO5ZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_d3oO5pkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_d3oO55kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_elQJ4JkdEemH5-M2tAcphw" name="Realização dos Itens de Ação">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_elQJ4ZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elQJ4pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVeZkdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elQJ45kdEemH5-M2tAcphw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_elkS8JkdEemH5-M2tAcphw" name="Desenvolver o item de ação" outgoing="_elk6AJkdEemH5-M2tAcphw" incoming="_elk6AZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_elkS8ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS8pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVd5kdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS85kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_elkS9JkdEemH5-M2tAcphw" name="Elaborar documentação de apoio" outgoing="_elk6AZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_elkS9ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS9pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVeJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS95kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_elkS-JkdEemH5-M2tAcphw" name="Trocar informação sobre o progresso técnico" incoming="_elk6AJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_elkS-ZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS-pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2hVepkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_elkS-5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_elk6AJkdEemH5-M2tAcphw" source="_elkS8JkdEemH5-M2tAcphw" target="_elkS-JkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_elk6AZkdEemH5-M2tAcphw" source="_elkS9JkdEemH5-M2tAcphw" target="_elkS8JkdEemH5-M2tAcphw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_elQw8JkdEemH5-M2tAcphw" type="AD" element="_elQJ4JkdEemH5-M2tAcphw" name="Realização dos Itens de Ação" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_elQw8ZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_elQw8pkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_elQw85kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_fA3u4JkdEemH5-M2tAcphw" name="Avaliação dos Itens Feitos">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fA3u4ZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fA3u4pkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2ijl5kdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fA3u45kdEemH5-M2tAcphw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fBGYYJkdEemH5-M2tAcphw" name="Avaliar se o que foi feito está de acordo com o critério de aceitação" outgoing="_fBHmgZkdEemH5-M2tAcphw" incoming="_fBHmgpkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fBGYYZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBGYYpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2ijmJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBGYY5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fBGYZJkdEemH5-M2tAcphw" name="Obter acordo quanto aos itens feitos" outgoing="_fBHmgpkdEemH5-M2tAcphw" incoming="_fBHmgJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fBGYZZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBGYZpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2ijkZkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBGYZ5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fBGYaJkdEemH5-M2tAcphw" name="Teste de integração dos itens de ação" incoming="_fBHmgZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fBG_cJkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBG_cZkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2ijlpkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBG_cpkdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fBG_c5kdEemH5-M2tAcphw" name="Trocar informação sobre o progresso técnico" outgoing="_fBHmgJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fBG_dJkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBG_dZkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2h8j5kdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fBG_dpkdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fBHmgJkdEemH5-M2tAcphw" source="_fBG_c5kdEemH5-M2tAcphw" target="_fBGYZJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fBHmgZkdEemH5-M2tAcphw" source="_fBGYYJkdEemH5-M2tAcphw" target="_fBGYaJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fBHmgpkdEemH5-M2tAcphw" source="_fBGYZJkdEemH5-M2tAcphw" target="_fBGYYJkdEemH5-M2tAcphw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_fA4V8JkdEemH5-M2tAcphw" type="AD" element="_fA3u4JkdEemH5-M2tAcphw" name="Avaliação dos Itens Feitos" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_fA4V8ZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_fA4V8pkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_fA4V85kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_fX8yIJkdEemH5-M2tAcphw" name="Aceitação pelo Cliente">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fX8yIZkdEemH5-M2tAcphw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fX8yIpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guZJkdEemH5-M2tAcphw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fX8yI5kdEemH5-M2tAcphw" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fYTXcJkdEemH5-M2tAcphw" name="Apresentar na reunião" incoming="_fYT-gZkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fYTXcZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXcpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guYJkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXc5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fYTXdJkdEemH5-M2tAcphw" name="Avaliar o produto entregue" outgoing="_fYT-gZkdEemH5-M2tAcphw" incoming="_fYT-gJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fYTXdZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXdpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guZpkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXd5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fYTXeJkdEemH5-M2tAcphw" name="Elaboração de documento de registro de mudanças" outgoing="_fYT-gJkdEemH5-M2tAcphw" incoming="_fYUlkJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fYTXeZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXepkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guZZkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXe5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_fYTXfJkdEemH5-M2tAcphw" name="Enviar as mudanças para o ambiente de homologação" outgoing="_fYUlkJkdEemH5-M2tAcphw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fYTXfZkdEemH5-M2tAcphw" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXfpkdEemH5-M2tAcphw" key="uri" value="uma://_HW-FYJkdEemH5-M2tAcphw#_K2guYpkdEemH5-M2tAcphw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fYTXf5kdEemH5-M2tAcphw" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fYT-gJkdEemH5-M2tAcphw" source="_fYTXeJkdEemH5-M2tAcphw" target="_fYTXdJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fYT-gZkdEemH5-M2tAcphw" source="_fYTXdJkdEemH5-M2tAcphw" target="_fYTXcJkdEemH5-M2tAcphw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fYUlkJkdEemH5-M2tAcphw" source="_fYTXfJkdEemH5-M2tAcphw" target="_fYTXeJkdEemH5-M2tAcphw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_fX8yJJkdEemH5-M2tAcphw" type="AD" element="_fX8yIJkdEemH5-M2tAcphw" name="Aceitação pelo Cliente" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_fX8yJZkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_fX8yJpkdEemH5-M2tAcphw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_fX8yJ5kdEemH5-M2tAcphw"/>
+  </notation:Diagram>
+</xmi:XMI>
